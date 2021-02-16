@@ -1,0 +1,15 @@
+%\documentclass[convert={density=300,size=1080x800,outext=.png},crop,tikz]{standalone}%
+\documentclass[convert={density=300,size=1080x800,outext=.png}]{standalone}
+\usepackage{tikz}
+
+\begin{document}
+\begin{tikzpicture}[node distance = 3.5cm]
+\node (sys) [rectangle, minimum width=2cm, minimum height=1.5cm, draw=black,label=above:{Compartiment}] {\color{gray}\begin{minipage}{2cm}\centering
+	Metabolisme
+	\end{minipage}};
+\coordinate[left of=sys] (in);
+\coordinate[right of=sys] (out);
+\draw [->,>=stealth,draw=gray](in) -- node[above] {\color{gray}IV bolus} (sys);
+\draw [->,>=stealth,draw=gray](sys) -- node[above] {\color{gray}renale excretie} (out);
+\end{tikzpicture}
+\end{document}
