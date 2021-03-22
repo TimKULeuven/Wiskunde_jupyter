@@ -1,0 +1,29 @@
+\documentclass[tikz,border=2pt]{standalone}
+\usetikzlibrary{positioning}
+\usepackage{mhchem}
+\begin{document}
+
+\tikzset{Tank/.style={draw=black,fill=white,thick,rectangle,rounded corners=20pt,minimum width=1.5cm,minimum height=3cm,text width=1.5cm,align=center}}
+\def\TANK#1#2#3#4{\node[Tank,right=#1 of #2](#3){#4};}
+
+\begin{tikzpicture}
+\node (START) {};
+
+\TANK{5cm}{START}{REAC1}{$V,\,\ce{Mg}$};
+\draw[thick,-latex] (START.east) to node[above,midway]{$[\text{amide}]_{\text{in}},\,[\ce{4-Cl-THP}]_{\text{in}},\,Q$} (REAC1.west);
+
+%\node[above=of REAC1] (MA) {Morpholine amide};
+%\draw[thick,-latex] (MA.south) to (REAC1.north);
+%
+
+\draw[thick,-latex] (REAC1.east) to node[above,midway]{$[\text{amide}],\,[\ce{4-Cl-THP}],\,[\text{intermediair}],\,[\text{THP-MgCl}],\,Q$} ++(8.5,0);
+%
+%\node[above=of REAC2] (Ac) {HOAc, water};
+%\draw[thick,-latex] (Ac.south) to (REAC2.north);
+%
+%\node[right=1cm of REAC2] (Ed){Edivoxetine};
+%
+%\draw[thick,-latex] (REAC2.east) to (Ed.west);
+\end{tikzpicture}
+
+\end{document}

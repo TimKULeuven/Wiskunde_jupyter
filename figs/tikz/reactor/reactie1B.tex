@@ -1,0 +1,12 @@
+\documentclass[border=5pt]{standalone}
+
+\usepackage{chemfig}
+\begin{document}
+
+
+\schemestart
+\scalebox{1}{\chemfig{*6(-N(-[::-60]-[::60]*6(=-=-=-))--([::0]<H)(-(=[::60]O)-[::-60]N*6(---O---))-O---)}} \arrow{0}[,0] \+ \scalebox{1}{\chemfig{*6(-O---(-Mg Cl)---)}} \arrow{->[$k_2$]} \arrow{0}[,0] \scalebox{1}{\chemfig{*6(-N(-[::-60]-[::60]*6(=-=-=-))--([::0]<H)(-(-[::60]O Mg Cl)(-[::-90]*6(---O---))-[::-20]N*6(---O---))-O---)}} \arrow{0}[,0] 
+\schemestop
+
+
+\end{document}
