@@ -1,0 +1,22 @@
+\documentclass[tikz,border=2pt]{standalone}
+\usepackage{pgfplots}
+\begin{document}
+
+\begin{tikzpicture}[scale=0.5]
+		\begin{axis}
+		[
+		axis equal,
+		ymax=3,ymin=-5,
+		xmin=-2,
+		xmax=5,
+		samples=1000,
+		axis lines=center,
+		extra y ticks={0},
+		restrict y to domain=-10:10,
+		]
+		\addplot[domain=-1:6,color=blue] {ln(x)};
+		\legend{$\ln(x)$}
+		\end{axis}
+\end{tikzpicture}	
+
+\end{document}

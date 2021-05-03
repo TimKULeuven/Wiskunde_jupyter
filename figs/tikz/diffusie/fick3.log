@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.14)  27 APR 2021 11:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.14)  19 APR 2021 15:40
 entering extended mode
-**./model_farmaco.tex
-(model_farmaco.tex
+**./fick3.tex
+(fick3.tex
 LaTeX2e <2020-10-01> patch level 2
 L3 programming layer <2020-12-07> xparse <2020-03-03>
 ("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/latex/standalone\stan
@@ -65,38 +65,37 @@ File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
-\sa@box=\box47
-runsystem(pdflatex  -shell-escape  -jobname "model_farmaco" "\expandafter\def\c
-sname sa@internal@run\endcsname{1}\input{model_farmaco}")...executed.
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/frontendlay
+er\tikz.sty"
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\
+pgf.sty"
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\p
+gfrcs.sty"
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities
+\pgfutil-common.tex"
+\pgfutil@everybye=\toks17
+\pgfutil@tempdima=\dimen139
+\pgfutil@tempdimb=\dimen140
 
-\sa@read=\read2
-runsystem(convert.exe -density 300 -units PixelsPerInch model_farmaco.pdf -resi
-ze 1080x800 -quality 90 model_farmaco.png)...executed.
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities
+\pgfutil-common-lists.tex"))
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities
+\pgfutil-latex.def"
+\pgfutil@abb=\box47
+)
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities
+\pgfrcs.code.tex"
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf\pgf.revis
+ion.tex")
+Package: pgfrcs 2020/12/01 v3.1.7a (3.1.7a)
+))
+Package: pgf 2020/12/01 v3.1.7a (3.1.7a)
 
-
-
-Class standalone Warning: Conversion unsuccessful!
-(standalone)              There might be something wrong with your
-(standalone)              conversation software or the file permissions!
-
- ) )
-(\end occurred when \ifx on line 3 was incomplete) 
-Here is how much of TeX's memory you used:
- 763 strings out of 479702
- 12496 string characters out of 2864103
- 279550 words of memory out of 3000000
- 17914 multiletter control sequences out of 15000+200000
- 403430 words of font info for 27 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 66i,1n,72p,212b,53s stack positions out of 5000i,500n,10000p,200000b,50000s
-
-No pages of output.
-PDF statistics:
- 0 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
-
-09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\
+pgfcore.sty"
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphi
+cx.sty"
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
 
 ("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphi
 cs.sty"
@@ -212,7 +211,7 @@ athutil.code.tex")
 athparser.code.tex"
 \pgfmath@dimen=\dimen153
 \pgfmath@count=\count195
-\pgfmath@box=\box49
+\pgfmath@box=\box48
 \pgfmath@toks=\toks24
 \pgfmath@stack@operand=\toks25
 \pgfmath@stack@operation=\toks26
@@ -274,9 +273,9 @@ File: pgfcorepathusage.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 ("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclaye
 r\pgfcorescopes.code.tex"
 File: pgfcorescopes.code.tex 2020/12/01 v3.1.7a (3.1.7a)
-\pgfpic=\box50
-\pgf@hbox=\box51
-\pgf@layerbox@main=\box52
+\pgfpic=\box49
+\pgf@hbox=\box50
+\pgf@layerbox@main=\box51
 \pgf@picture@serial@count=\count197
 )
 ("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclaye
@@ -322,7 +321,7 @@ File: pgfcoreimage.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 ("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclaye
 r\pgfcoreexternal.code.tex"
 File: pgfcoreexternal.code.tex 2020/12/01 v3.1.7a (3.1.7a)
-\pgfexternal@startupbox=\box53
+\pgfexternal@startupbox=\box52
 ))
 ("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclaye
 r\pgfcorelayers.code.tex"
@@ -343,7 +342,7 @@ File: pgfcorerdf.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 ("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\p
 gfmoduleshapes.code.tex"
 File: pgfmoduleshapes.code.tex 2020/12/01 v3.1.7a (3.1.7a)
-\pgfnodeparttextbox=\box54
+\pgfnodeparttextbox=\box53
 )
 ("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\p
 gfmoduleplot.code.tex"
@@ -398,10 +397,10 @@ File: pgflibraryplothandlers.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 \tikz@lastmovetoy=\dimen188
 \tikzleveldistance=\dimen189
 \tikzsiblingdistance=\dimen190
-\tikz@figbox=\box55
-\tikz@figbox@bg=\box56
-\tikz@tempbox=\box57
-\tikz@tempbox@bg=\box58
+\tikz@figbox=\box54
+\tikz@figbox@bg=\box55
+\tikz@tempbox=\box56
+\tikz@tempbox@bg=\box57
 \tikztreelevel=\count267
 \tikznumberofchildren=\count268
 \tikznumberofcurrentchild=\count269
@@ -420,28 +419,34 @@ File: pgfmodulematrix.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 ayer/tikz/libraries\tikzlibrarytopaths.code.tex"
 File: tikzlibrarytopaths.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 )))
+\sa@box=\box58
+)
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendl
+ayer/tikz/libraries\tikzlibrarycalc.code.tex"
+File: tikzlibrarycalc.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+)
 ("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3bac
 kend-pdftex.def"
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count275
 \l__pdf_internal_box=\box59
-) (model_farmaco.aux)
-\openout1 = `model_farmaco.aux'.
+) (fick3.aux)
+\openout1 = `fick3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
 
 ("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\sup
 p-pdf.mkii"
@@ -470,21 +475,22 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 9.
  [1
 
-{C:/Users/u0136678/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (model_f
-armaco.aux) ) 
+{C:/Users/u0136678/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (fick3.a
+ux) ) 
 Here is how much of TeX's memory you used:
- 12047 strings out of 479702
- 252842 string characters out of 2864103
- 491583 words of memory out of 3000000
- 28949 multiletter control sequences out of 15000+200000
+ 12143 strings out of 479702
+ 255100 string characters out of 2864103
+ 515288 words of memory out of 3000000
+ 29042 multiletter control sequences out of 15000+200000
  403430 words of font info for 27 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 111i,7n,113p,451b,624s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/u0136678/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmr10.pfb>
-Output written on model_farmaco.pdf (1 page, 15109 bytes).
+ 122i,7n,124p,414b,636s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/u0136678/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmmi10.pfb><C:/Users/u0136678/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on fick3.pdf (1 page, 20482 bytes).
 PDF statistics:
- 13 PDF objects out of 1000 (max. 8388607)
+ 17 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

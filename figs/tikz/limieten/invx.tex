@@ -1,0 +1,20 @@
+\documentclass[tikz,border=2pt]{standalone}
+\usepackage{pgfplots}
+\begin{document}
+
+\begin{tikzpicture}[scale=0.5]
+		\begin{axis}
+		[
+		axis equal,
+		ymax=5,ymin=-5,
+		samples=200,
+		axis lines=center,
+		extra y ticks={0},
+		restrict y to domain=-10:10,
+		]
+		\addplot[domain=-6:6,color=blue] {1/x};
+		\legend{$1/x$}
+		\end{axis}
+\end{tikzpicture}	
+
+\end{document}

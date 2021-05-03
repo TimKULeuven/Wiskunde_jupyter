@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.14)  27 APR 2021 11:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.14)  12 APR 2021 12:08
 entering extended mode
-**./model_farmaco.tex
-(model_farmaco.tex
+**./lnx.tex
+(lnx.tex
 LaTeX2e <2020-10-01> patch level 2
 L3 programming layer <2020-12-07> xparse <2020-03-03>
 ("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/latex/standalone\stan
@@ -65,38 +65,37 @@ File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
-\sa@box=\box47
-runsystem(pdflatex  -shell-escape  -jobname "model_farmaco" "\expandafter\def\c
-sname sa@internal@run\endcsname{1}\input{model_farmaco}")...executed.
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/frontendlay
+er\tikz.sty"
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\
+pgf.sty"
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\p
+gfrcs.sty"
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities
+\pgfutil-common.tex"
+\pgfutil@everybye=\toks17
+\pgfutil@tempdima=\dimen139
+\pgfutil@tempdimb=\dimen140
 
-\sa@read=\read2
-runsystem(convert.exe -density 300 -units PixelsPerInch model_farmaco.pdf -resi
-ze 1080x800 -quality 90 model_farmaco.png)...executed.
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities
+\pgfutil-common-lists.tex"))
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities
+\pgfutil-latex.def"
+\pgfutil@abb=\box47
+)
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities
+\pgfrcs.code.tex"
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf\pgf.revis
+ion.tex")
+Package: pgfrcs 2020/12/01 v3.1.7a (3.1.7a)
+))
+Package: pgf 2020/12/01 v3.1.7a (3.1.7a)
 
-
-
-Class standalone Warning: Conversion unsuccessful!
-(standalone)              There might be something wrong with your
-(standalone)              conversation software or the file permissions!
-
- ) )
-(\end occurred when \ifx on line 3 was incomplete) 
-Here is how much of TeX's memory you used:
- 763 strings out of 479702
- 12496 string characters out of 2864103
- 279550 words of memory out of 3000000
- 17914 multiletter control sequences out of 15000+200000
- 403430 words of font info for 27 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 66i,1n,72p,212b,53s stack positions out of 5000i,500n,10000p,200000b,50000s
-
-No pages of output.
-PDF statistics:
- 0 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
-
-09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\
+pgfcore.sty"
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphi
+cx.sty"
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
 
 ("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphi
 cs.sty"
@@ -212,7 +211,7 @@ athutil.code.tex")
 athparser.code.tex"
 \pgfmath@dimen=\dimen153
 \pgfmath@count=\count195
-\pgfmath@box=\box49
+\pgfmath@box=\box48
 \pgfmath@toks=\toks24
 \pgfmath@stack@operand=\toks25
 \pgfmath@stack@operation=\toks26
@@ -274,9 +273,9 @@ File: pgfcorepathusage.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 ("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclaye
 r\pgfcorescopes.code.tex"
 File: pgfcorescopes.code.tex 2020/12/01 v3.1.7a (3.1.7a)
-\pgfpic=\box50
-\pgf@hbox=\box51
-\pgf@layerbox@main=\box52
+\pgfpic=\box49
+\pgf@hbox=\box50
+\pgf@layerbox@main=\box51
 \pgf@picture@serial@count=\count197
 )
 ("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclaye
@@ -322,7 +321,7 @@ File: pgfcoreimage.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 ("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclaye
 r\pgfcoreexternal.code.tex"
 File: pgfcoreexternal.code.tex 2020/12/01 v3.1.7a (3.1.7a)
-\pgfexternal@startupbox=\box53
+\pgfexternal@startupbox=\box52
 ))
 ("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclaye
 r\pgfcorelayers.code.tex"
@@ -343,7 +342,7 @@ File: pgfcorerdf.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 ("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\p
 gfmoduleshapes.code.tex"
 File: pgfmoduleshapes.code.tex 2020/12/01 v3.1.7a (3.1.7a)
-\pgfnodeparttextbox=\box54
+\pgfnodeparttextbox=\box53
 )
 ("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\p
 gfmoduleplot.code.tex"
@@ -398,10 +397,10 @@ File: pgflibraryplothandlers.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 \tikz@lastmovetoy=\dimen188
 \tikzleveldistance=\dimen189
 \tikzsiblingdistance=\dimen190
-\tikz@figbox=\box55
-\tikz@figbox@bg=\box56
-\tikz@tempbox=\box57
-\tikz@tempbox@bg=\box58
+\tikz@figbox=\box54
+\tikz@figbox@bg=\box55
+\tikz@tempbox=\box56
+\tikz@tempbox@bg=\box57
 \tikztreelevel=\count267
 \tikznumberofchildren=\count268
 \tikznumberofcurrentchild=\count269
@@ -420,43 +419,164 @@ File: pgfmodulematrix.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 ayer/tikz/libraries\tikzlibrarytopaths.code.tex"
 File: tikzlibrarytopaths.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 )))
+\sa@box=\box58
+)
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgfplots\pgfplo
+ts.sty"
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfp
+lots.revision.tex")
+Package: pgfplots 2018/03/28 v1.16 Data Visualization (1.16)
+
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfp
+lots.code.tex"
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfp
+lotscore.code.tex"
+\t@pgfplots@toka=\toks29
+\t@pgfplots@tokb=\toks30
+\t@pgfplots@tokc=\toks31
+\pgfplots@tmpa=\dimen191
+\c@pgfplots@coordindex=\count275
+\c@pgfplots@scanlineindex=\count276
+
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/sys\
+pgfplotssysgeneric.code.tex"))
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/libs
+\pgfplotslibrary.code.tex")
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/oldp
+gfcompatib\pgfplotsoldpgfsupp_loader.code.tex"
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries
+\pgflibraryfpu.code.tex"))
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/util
+\pgfplotsutil.code.tex"
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/list
+structure\pgfplotsliststructure.code.tex")
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/list
+structure\pgfplotsliststructureext.code.tex")
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/list
+structure\pgfplotsarray.code.tex"
+\c@pgfplotsarray@tmp=\count277
+)
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/list
+structure\pgfplotsmatrix.code.tex")
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/numt
+able\pgfplotstableshared.code.tex"
+\c@pgfplotstable@counta=\count278
+\t@pgfplotstable@a=\toks32
+)
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/list
+structure\pgfplotsdeque.code.tex")
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/util
+\pgfplotsbinary.code.tex"
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/util
+\pgfplotsbinary.data.code.tex"))
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/util
+\pgfplotsutil.verb.code.tex")
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/libs
+\pgflibrarypgfplots.surfshading.code.tex"
+\c@pgfplotslibrarysurf@no=\count279
+
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/sys\
+pgflibrarypgfplots.surfshading.pgfsys-pdftex.def")))
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/util
+\pgfplotscolormap.code.tex"
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/util
+\pgfplotscolor.code.tex"))
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfp
+lotsstackedplots.code.tex")
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfp
+lotsplothandlers.code.tex"
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfp
+lotsmeshplothandler.code.tex"
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfp
+lotsmeshplotimage.code.tex")))
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfp
+lots.scaling.code.tex")
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfp
+lotscoordprocessing.code.tex")
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfp
+lots.errorbars.code.tex")
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfp
+lots.markers.code.tex")
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfp
+lotsticks.code.tex")
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfp
+lots.paths.code.tex")
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendl
+ayer/tikz/libraries\tikzlibrarydecorations.code.tex"
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\p
+gfmoduledecorations.code.tex"
+\pgfdecoratedcompleteddistance=\dimen192
+\pgfdecoratedremainingdistance=\dimen193
+\pgfdecoratedinputsegmentcompleteddistance=\dimen194
+\pgfdecoratedinputsegmentremainingdistance=\dimen195
+\pgf@decorate@distancetomove=\dimen196
+\pgf@decorate@repeatstate=\count280
+\pgfdecorationsegmentamplitude=\dimen197
+\pgfdecorationsegmentlength=\dimen198
+)
+\tikz@lib@dec@box=\box59
+)
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendl
+ayer/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex"
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries
+/decorations\pgflibrarydecorations.pathmorphing.code.tex"))
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendl
+ayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex"
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries
+/decorations\pgflibrarydecorations.pathreplacing.code.tex"))
+\pgfplots@numplots=\count281
+\pgfplots@xmin@reg=\dimen199
+\pgfplots@xmax@reg=\dimen256
+\pgfplots@ymin@reg=\dimen257
+\pgfplots@ymax@reg=\dimen258
+\pgfplots@zmin@reg=\dimen259
+\pgfplots@zmax@reg=\dimen260
+)
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendl
+ayer/tikz/libraries\tikzlibraryplotmarks.code.tex"
+File: tikzlibraryplotmarks.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+
+("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries
+\pgflibraryplotmarks.code.tex"
+File: pgflibraryplotmarks.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+)))
 ("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3bac
 kend-pdftex.def"
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count275
-\l__pdf_internal_box=\box59
-) (model_farmaco.aux)
-\openout1 = `model_farmaco.aux'.
+\l__kernel_color_stack_int=\count282
+\l__pdf_internal_box=\box60
+) (lnx.aux)
+\openout1 = `lnx.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
 
 ("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\sup
 p-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count276
-\scratchdimen=\dimen191
-\scratchbox=\box60
-\nofMPsegments=\count277
-\nofMParguments=\count278
-\everyMPshowfont=\toks29
-\MPscratchCnt=\count279
-\MPscratchDim=\dimen192
-\MPnumerator=\count280
-\makeMPintoPDFobject=\count281
-\everyMPtoPDFconversion=\toks30
+\scratchcounter=\count283
+\scratchdimen=\dimen261
+\scratchbox=\box61
+\nofMPsegments=\count284
+\nofMParguments=\count285
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count286
+\MPscratchDim=\dimen262
+\MPnumerator=\count287
+\makeMPintoPDFobject=\count288
+\everyMPtoPDFconversion=\toks34
 )
 ("C:\Users\u0136678\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\ep
 stopdf-base.sty"
@@ -464,27 +584,35 @@ Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 9.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 9.
- [1
 
-{C:/Users/u0136678/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (model_f
-armaco.aux) ) 
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.16} into 
+your preamble.
+ on input line 3.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 19.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 19.
+[1
+
+{C:/Users/u0136678/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+(lnx.aux) ) 
 Here is how much of TeX's memory you used:
- 12047 strings out of 479702
- 252842 string characters out of 2864103
- 491583 words of memory out of 3000000
- 28949 multiletter control sequences out of 15000+200000
+ 22227 strings out of 479702
+ 597701 string characters out of 2864103
+ 1164866 words of memory out of 3000000
+ 38998 multiletter control sequences out of 15000+200000
  403430 words of font info for 27 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 111i,7n,113p,451b,624s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/u0136678/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmr10.pfb>
-Output written on model_farmaco.pdf (1 page, 15109 bytes).
+ 122i,18n,124p,718b,2175s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/u0136678/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmmi10.pfb><C:/Users/u0136678/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/u0136678/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on lnx.pdf (1 page, 35945 bytes).
 PDF statistics:
- 13 PDF objects out of 1000 (max. 8388607)
+ 21 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
