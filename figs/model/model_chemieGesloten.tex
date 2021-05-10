@@ -1,0 +1,15 @@
+%\documentclass[convert={density=300,size=1080x800,outext=.png},crop,tikz]{standalone}%
+\documentclass[convert={density=300,size=1080x800,outext=.png},border=5pt]{standalone}
+\usepackage{tikz}
+
+\begin{document}
+\begin{tikzpicture}[node distance = 2.5cm]
+\node (sys) [rectangle, minimum width=2cm, minimum height=1.5cm, draw=black,label=above:{Systeem}] {\color{gray}\begin{minipage}{2cm}\centering
+	chemische\\reacties
+	\end{minipage}};
+%\coordinate[left of=sys] (in);
+%\coordinate[right of=sys] (out);
+%\draw [->,>=stealth,draw=gray](in) -- node[anchor=south] {\color{gray}in} (sys);
+%\draw [->,>=stealth,draw=gray](sys) -- node[anchor=south] {\color{gray}uit} (out);
+\end{tikzpicture}
+\end{document}
